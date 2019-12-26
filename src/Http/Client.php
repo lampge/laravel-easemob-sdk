@@ -62,7 +62,7 @@ class Client
         }
         // return $response->getStatusCode() == 200 ? \GuzzleHttp\json_decode($content, 1) : $response;
         if($response->getStatusCode() == 200){
-            return $response;
+            return \GuzzleHttp\json_decode($content, 1);
         }else{
             return false;
         }
