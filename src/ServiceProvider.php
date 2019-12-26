@@ -1,19 +1,19 @@
 <?php
 
-namespace YL20181120\Easemob;
+namespace lampge\Easemob;
 
 /**
  * Date: 2019/7/13 17:07
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use YL20181120\Easemob\Services\ChatRoom;
-use YL20181120\Easemob\Services\Conference;
-use YL20181120\Easemob\Services\Friend;
-use YL20181120\Easemob\Services\Group;
-use YL20181120\Easemob\Services\Message;
-use YL20181120\Easemob\Services\User;
+use lampge\Easemob\Services\ChatRoom;
+use lampge\Easemob\Services\Conference;
+use lampge\Easemob\Services\Friend;
+use lampge\Easemob\Services\Group;
+use lampge\Easemob\Services\Message;
+use lampge\Easemob\Services\User;
 
 class ServiceProvider extends LaravelServiceProvider
 {

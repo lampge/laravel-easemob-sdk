@@ -1,17 +1,17 @@
 <?php
 
-namespace YL20181120\Easemob\Http;
+namespace lampge\Easemob\Http;
 
 /**
  * Date: 2019/7/13 17:51
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Cache;
-use YL20181120\Easemob\Facade as Easemob;
-use YL20181120\Easemob\Services\BaseService;
+use lampge\Easemob\Facade as Easemob;
+use lampge\Easemob\Services\BaseService;
 use GuzzleHttp\Client as GuzzleClient;
 
 class Client
@@ -23,7 +23,7 @@ class Client
      * @param array $header
      * @param string $method
      * @return Response|array
-     * @author Jasmine2
+     * @author lampge
      */
     public static function auth($method = 'POST', $url, $data = [], $second = 30, $header = [])
     {

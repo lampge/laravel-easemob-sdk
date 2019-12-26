@@ -1,10 +1,10 @@
 <?php
 /**
  * Date: 2019/7/13 17:36
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
-namespace YL20181120\Easemob\Services;
+namespace lampge\Easemob\Services;
 
 
 class BaseService

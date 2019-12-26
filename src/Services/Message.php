@@ -1,15 +1,15 @@
 <?php
 /**
  * Date: 2019/7/13 17:37
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
-namespace YL20181120\Easemob\Services;
+namespace lampge\Easemob\Services;
 
 
 use Illuminate\Support\Arr;
-use YL20181120\Easemob\Exceptions\EasemobError;
-use YL20181120\Easemob\Http\Client as Http;
+use lampge\Easemob\Exceptions\EasemobError;
+use lampge\Easemob\Http\Client as Http;
 
 class Message extends BaseService
 {

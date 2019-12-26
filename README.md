@@ -1,2 +1,2 @@
 # laravel-easemob-sdk
-Easemob laravel sdk(环信 Laravel SDK)
+Easemob Laravel SDK(环信 Laravel SDK)

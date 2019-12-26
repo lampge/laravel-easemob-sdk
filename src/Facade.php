@@ -1,18 +1,18 @@
 <?php
 /**
  * Date: 2019/7/13 17:53
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
-namespace YL20181120\Easemob;
+namespace lampge\Easemob;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
-use YL20181120\Easemob\Services\ChatRoom;
-use YL20181120\Easemob\Services\Friend;
-use YL20181120\Easemob\Services\Group;
-use YL20181120\Easemob\Services\Message;
-use YL20181120\Easemob\Services\User;
-use YL20181120\Easemob\Services\Conference;
+use lampge\Easemob\Services\ChatRoom;
+use lampge\Easemob\Services\Friend;
+use lampge\Easemob\Services\Group;
+use lampge\Easemob\Services\Message;
+use lampge\Easemob\Services\User;
+use lampge\Easemob\Services\Conference;
 
 class Facade extends LaravelFacade
 {
@@ -23,7 +23,7 @@ class Facade extends LaravelFacade
 
     /**
      * @return User
-     * @author Jasmine2
+     * @author lampge
      */
     public static function user()
     {
@@ -32,7 +32,7 @@ class Facade extends LaravelFacade
 
     /**
      * @return Friend
-     * @author Jasmine2
+     * @author lampge
      */
     public static function friend()
     {
@@ -41,7 +41,7 @@ class Facade extends LaravelFacade
 
     /**
      * @return Group
-     * @author Jasmine2
+     * @author lampge
      */
     public static function group()
     {
@@ -50,7 +50,7 @@ class Facade extends LaravelFacade
 
     /**
      * @return ChatRoom
-     * @author Jasmine2
+     * @author lampge
      */
     public static function chatRoom()
     {
@@ -59,7 +59,7 @@ class Facade extends LaravelFacade
 
     /**
      * @return Conference
-     * @author Jasmine2
+     * @author lampge
      */
     public static function conference()
     {
@@ -68,7 +68,7 @@ class Facade extends LaravelFacade
 
     /**
      * @return Message
-     * @author Jasmine2
+     * @author lampge
      */
     public static function message()
     {

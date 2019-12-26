@@ -1,7 +1,7 @@
 <?php
 /**
  * Date: 2019/7/13 17:22
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
 return [

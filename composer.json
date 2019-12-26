@@ -1,12 +1,12 @@
 {
-    "name": "yl20181120/laravel-easemob-sdk",
+    "name": "lampge/laravel-easemob-sdk",
     "description": "Easemob laravel sdk 环信 Laravel SDK",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "jasmine",
-            "email": "youjingqiang@vip.qq.com"
+            "name": "lampge",
+            "email": "lampge@sina.com"
         }
     ],
     "minimum-stability": "stable",
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "YL20181120\\Easemob\\": "src/"
+            "lampge\\Easemob\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "YL20181120\\Easemob\\ServiceProvider"
+                "lampge\\Easemob\\ServiceProvider"
             ]
         }
     }

@@ -1,12 +1,12 @@
 <?php
 /**
  * Date: 2019/7/13 17:38
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
-namespace YL20181120\Easemob\Services;
+namespace lampge\Easemob\Services;
 
-use YL20181120\Easemob\Http\Client as Http;
+use lampge\Easemob\Http\Client as Http;
 
 class Conference extends BaseService
 {
@@ -22,7 +22,7 @@ class Conference extends BaseService
      * @param bool $rec
      * @param bool $recMerge
      * @return array|\GuzzleHttp\Psr7\Response
-     * @author Jasmine2
+     * @author lampge
      */
     public function createConference(
         $confrType,
@@ -52,7 +52,7 @@ class Conference extends BaseService
      * 结算会议
      * @param $conference_id
      * @return array|\GuzzleHttp\Psr7\Response
-     * @author Jasmine2
+     * @author lampge
      */
     public function dismissConference($conference_id)
     {
@@ -64,7 +64,7 @@ class Conference extends BaseService
      * 会议详情
      * @param $conference_id
      * @return array|\GuzzleHttp\Psr7\Response
-     * @author Jasmine2
+     * @author lampge
      */
     public function viewConference($conference_id)
     {
@@ -78,7 +78,7 @@ class Conference extends BaseService
      * @param $conference_id
      * @param $username
      * @return array|\GuzzleHttp\Psr7\Response
-     * @author Jasmine2
+     * @author lampge
      */
     public function deleteConferenceUser($conference_id, $username)
     {

@@ -1,12 +1,12 @@
 <?php
 /**
  * Date: 2019/7/13 18:09
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
-namespace YL20181120\Easemob\Services;
+namespace lampge\Easemob\Services;
 
-use YL20181120\Easemob\Http\Client as Http;
+use lampge\Easemob\Http\Client as Http;
 use Illuminate\Support\Arr;
 
 class Friend extends BaseService

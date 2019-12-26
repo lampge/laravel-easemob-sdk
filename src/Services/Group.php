@@ -1,13 +1,13 @@
 <?php
 /**
  * Date: 2019/7/13 17:38
- * Copyright (c) Youjingqiang <youjingqiang@gmail.com>
+ * Copyright (c) lampge <lampge@sina.com>
  */
 
-namespace YL20181120\Easemob\Services;
+namespace lampge\Easemob\Services;
 
-use YL20181120\Easemob\Exceptions\EasemobError;
-use YL20181120\Easemob\Http\Client as Http;
+use lampge\Easemob\Exceptions\EasemobError;
+use lampge\Easemob\Http\Client as Http;
 use Illuminate\Support\Arr;
 
 class Group extends BaseService
