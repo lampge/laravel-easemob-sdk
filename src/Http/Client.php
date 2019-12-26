@@ -60,7 +60,12 @@ class Client
             Log::debug($content);
             Log::info(str_repeat('-', 120));
         }
-        return $response->getStatusCode() == 200 ? \GuzzleHttp\json_decode($content, 1) : $response;
+        // return $response->getStatusCode() == 200 ? \GuzzleHttp\json_decode($content, 1) : $response;
+        if($response->getStatusCode() == 200){
+            return $response;
+        }else{
+            return false;
+        }
     }
 
     public static function json($url, $data = [], $second = 30, $header = [])
