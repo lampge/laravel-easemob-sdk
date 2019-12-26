@@ -134,7 +134,8 @@ class Client
             } else {
                 $error_message = '请求错误!';
             }
-            throw new EasemobError($error_message, $status);
+            return false;
+            // throw new EasemobError($error_message, $status);
         }
         // 在下载文件的时候 不是json
         if ($is_json) {
